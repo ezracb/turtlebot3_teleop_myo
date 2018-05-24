@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- user args -->
+  <arg name="port" default="/dev/ttyACM0"/>
+
+  <!-- myo ros node -->
+  <node pkg="turtlebot3_teleop_myo" name="myo_raw" type="myo-rawNode.py" args="$(arg port)" output="screen"/>
+  <node pkg="turtlebot3_teleop_myo" name="turtlebot3_teleop_myo" type="myo-turtlebot3.py"/>
+
+</launch>
