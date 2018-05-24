@@ -3,7 +3,7 @@
 import rospy
 from std_msgs.msg import String
 from geometry_msgs.msg import Twist, Vector3
-from ros_myo.msg import MyoArm, MyoPose
+from turtlebot3_teleop_myo.msg import MyoArm, MyoPose
 
 ########## Data Enums ###########
 # MyoArm.arm___________________ #

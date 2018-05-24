@@ -14,7 +14,7 @@ from tf.transformations import euler_from_quaternion
 from std_msgs.msg import String, Header, UInt8
 from geometry_msgs.msg import Quaternion, Vector3, PoseStamped, Point, Pose
 from sensor_msgs.msg import Imu
-from ros_myo.msg import MyoArm, MyoPose, EmgArray
+from turtlebot3_teleop_myo.msg import MyoArm, MyoPose, EmgArray
 
 
 class MyoRaw(object):
